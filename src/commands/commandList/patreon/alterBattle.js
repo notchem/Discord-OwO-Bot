@@ -449,7 +449,7 @@ function notJames(text,opt) {
 		case 16711680:
 			if (opt) {
 				text.author.name = 'chem has arrived to protect the Fallen Stars from outerspace invaders!';
-				text.footer.text = `Wait...what?! The battle ended after ${opt.turns} turns. You sadly collected 50 star fragments and lost your streak of ${opt.streak} victories...`;
+				text.footer.text = `Wait...what?! The battle ended after ${opt.turns} turns. You sadly collected 50 stardust and lost your streak of ${opt.streak} victories...`;
 			}
 			text.color = 1262169;
 			text.thumbnail = {
